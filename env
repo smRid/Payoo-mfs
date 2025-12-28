@@ -1,0 +1,9 @@
+CLERK_PUBLISHABLE_KEY=pk_test_Y2FsbS1odXNreS00MS5jbGVyay5hY2NvdW50cy5kZXYk
+CLERK_SECRET_KEY=sk_test_L9dLAsb8z5AXweeJj5zpy7ZNpay5au9juigjoq3Y9N
+
+# Database configuration
+MONGODB_URL= "mongodb+srv://omorsk911_db_user:pxx4BZxqKM37z4Fm@cluster0.ib6gkih.mongodb.net/"
+
+
+STRIPE_SECRET_KEY=sk_test_51RkAyPI7gBbblIizRC9oxpu802ps14q7niqWm2V0T6dMZvmyVDJogk9arrXaZAZwCVE9LjHk9yYf98kOaKvYeYzo00qX1eS4Zq
+
