@@ -14,7 +14,7 @@ document.getElementById('send-money-btn').addEventListener('click', function(){
     }
     
     const pin = getValueFormInput('send-money-pin');
-    if(pin === "4321"){
+    if(pin.length === 4){
         alert(`Send Money Successful to ${userNumber} 
         at ${new Date()}`)
         setBalance(newBalance);

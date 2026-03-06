@@ -14,7 +14,7 @@ document.getElementById('cashout-btn').addEventListener('click', function(){
     }
     
     const pin = getValueFormInput('input-pin');
-    if(pin === "4321"){
+    if(pin.length === 4){
         alert("Cashout Successful.")
         setBalance(newBalance);
 

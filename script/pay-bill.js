@@ -15,7 +15,7 @@ document.getElementById('pay-bill-btn').addEventListener('click', function(){
     const newBalance = currentBalance + Number(payAmount);
     console.log(newBalance)
     const pin = getValueFormInput('pay-bill-pin');
-    if(pin === "4321"){
+    if(pin.length === 4){
         alert(`Add Money Successful from ${bankAccount} 
         at ${new Date()}`)
         setBalance(newBalance);
